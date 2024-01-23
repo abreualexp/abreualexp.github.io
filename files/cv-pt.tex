@@ -1,0 +1,108 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Alex Paranahyba de Abreu} % Your name
+\address{
+    \href{mailto:abreualexp@gmail.com}{abreualexp@gmail.com} \\ 
+    +55 62 98454-2289
+} 
+% \address{
+%     \href{https://www.linkedin.com/in/abreu-alex/}{LinkedIn} \\ \href{http://lattes.cnpq.br/0273240076049563}{CV Lattes} \\
+%     \href{https://www.researchgate.net/profile/Alex-Abreu-3}{ResearchGate}
+% }  %
+
+\begin{document}
+
+\begin{tabularx}{\textwidth}{YYYY}
+    \href{https://www.linkedin.com/in/abreu-alex/}{LinkedIn} & 
+    \href{http://lattes.cnpq.br/0273240076049563}{CV Lattes} &
+    \href{https://github.com/abreualexp}{GitHub} &
+    \href{https://scholar.google.com/citations?user=IuZ2wVQAAAAJ\&hl}{Google Scholar}
+\end{tabularx}
+
+\textbf{Idiomas}:\
+    Português (nativo),\
+    Inglês (avançado).
+    % Espanhol (básico).
+
+\begin{rSection}{Experiência Acadêmica}
+{\bf Intercâmbio}, School of Management \hfill {2023 - Atual}\\
+University of Bath \hfill \textit{Bath, Inglaterra.}
+\begin{itemize}
+\itemsep -8pt {}
+    \item Projeto: Otimização de roteamento de veículos considerando aspectos ambientais;
+    \item Pesquisa financiada pela FAPESP (\href{https://bv.fapesp.br/pt/bolsas/211223/}{link para o projeto}).
+\end{itemize}
+
+{\bf Mestrado em Engenharia de Produção}, Pesquisa Operacional \hfill {2022 - Atual}\\
+Universidade Federal de São Carlos (UFSCar) \hfill \textit{São Carlos, SP, Brasil.}
+\begin{itemize}
+\itemsep -8pt {}
+    \item Projeto: Otimização de roteamento de veículos com coletas e entregas sob incertezas;
+    \item Pesquisa financiada pela FAPESP (\href{https://bv.fapesp.br/pt/bolsas/205661/}{link para o projeto});
+    \item Participação em projetos de otimização com empresas privadas.
+\end{itemize}
+
+{\bf Bacharelado em Engenharia de Produção} \hfill {2017 - 2022}\\
+Universidade Federal de Goiás (UFG) \hfill \textit{Goiânia, GO, Brasil.}
+\begin{itemize}
+\itemsep -8pt {}
+    \item TCC em Otimização de Produção (banca internacional - \href{https://youtu.be/BdtktfRTIfk}{link para a defesa});
+    \item De Trainee à Presidente Executivo da Empresa Júnior (2019 - 2021);
+    \item Voluntário (2018) e bolsista (2019 - 2021) de Iniciação Científica.
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Experiência Profissional}
+\textbf{Analista de Análise e Planejamento Financeiro (FP\&A)} \hfill 2021 - 2022\\
+Grupo BR Aço \hfill \textit{Goiânia, GO.}
+ \begin{itemize}
+    \itemsep -10pt {}
+    \item Elaboração e apresentação de relatórios financeiros gerenciais;
+    \item Mapeamento e implementação de processos nas unidades de negócio do Grupo.
+ \end{itemize}
+ 
+\textbf{Estagiário de Pesquisa e Desenvolvimento (P\&D)} \hfill 2020 - 2021\\
+Cargill \hfill \textit{Goiânia, GO.}
+ \begin{itemize}
+    \itemsep -10pt {}
+    \item Planejamento e execução de testes de embalagens nas linhas de molhos e extrato de tomate em Goiânia/GO;
+    \item Simulação de distribuição e estocagem de produtos acabados em Goiânia/GO, Mairinque/SP e Itumbiara/GO.
+ \end{itemize}
+
+\end{rSection} 
+
+
+\begin{rSection}{PRINCIPAIS PROJETOS finalizados}
+\vspace{-1.25em}
+\item {\bf Sequenciamento de descarga de caminhões, 2022.}
+{Implementação de modelo matemático (utilizando Python, Excel e CBC) para otimização do sequenciamento de descarga de caminhões com matéria-prima em uma indústria de fertilizantes.}
+
+\item {\bf Programação de produção, 2022.}
+{Desenvolvimento de ferramenta computacional para representação e otimização de sequenciamento da produção em uma fábrica de brinquedos.}
+
+\item {\bf Otimização de sistemas produtivos, 2019 - 2021}
+{Implementação computacional de modelos matemáticos e algoritmos heurísticos (utilizando Julia e Gurobi) desenvolvidos para otimização do sequenciamento de produção minimizando tempos de espera e ociosidade (\href{https://doi.org/10.1016/j.cie.2022.107976}{Resultados do projeto} - Artigo).}
+
+\item {\bf Previsão de demanda, 2019.}
+{Implementação de regressão multivariada (em R) para previsão da demanda de serviços de em uma empresa de {\it buffet} (\href{https://www.poisson.com.br/livros/producao/foco53/Gestao_da_producao_em_foco_vol53.pdf#page=98}{Resultados do projeto} - Cap. de livro).}
+
+\end{rSection} 
+
+
+\begin{rSection}{Ferramentas e interesses}
+    % \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    \begin{tabularx}{\textwidth}{lX}
+        Ferramentas & Julia, JuMP, Python, \LaTeX, Gurobi, HiGHS, Excel, VBA, Notion, Git.\\
+        Interesses  & Pesquisa Operacional, problemas de roteamento, problemas de sequenciamento, métodos de otimização, algoritmos heurísticos, otimização robusta.
+    \end{tabularx}
+\end{rSection}
+
+\end{document}

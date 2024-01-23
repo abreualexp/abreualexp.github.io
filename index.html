@@ -3,6 +3,16 @@
 
 <head>
 	<title>Alex Abreu</title>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTFXM0VFZH"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-MTFXM0VFZH');
+	</script>
+
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
@@ -10,57 +20,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/kube.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/custom.min.css" />
-	<link rel="shortcut icon" href="img/favicon.png" />
+	<!-- <link rel="stylesheet" href="css/custom.min.css" /> -->
+	<link rel="stylesheet" href="css/custom.css" />
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css">
+	
+	<link rel="shortcut icon" href="img/favicon.png" />
+	
 	<style>
 		.intro h1:before {
 			/* Edit this with your name or anything else */
 			content: 'ALEX';
 		}
 	</style>
-	<!-- <style>
-		/* this will keep the element fixed at the center */
-		#centerDIV {
-			position: fixed;
-			top: 0;
-			left: 0;
-			background-color: rgba(255, 255, 255, 0);
-			width: 175%;
-			height: 100%;    
-			padding-top: 100px;
-			/* display: none;	 keep the element hidden */
-		}
-
-		/* this element will float */
-		.divFloat {
-			margin: 0 auto;
-			background-color: #ffffff00;
-			width: 50px;
-			height: auto;
-			padding: 5px;
-			display: block;
-		}
-	</style> -->
+	
 </head>
 
 <body>
-	<!-- The element which will float at the side of the screen -->
-	<!-- <div id="centerDIV">
-		<div class="divFloat">
-			<p style="text-align:center"><font size="5">
-				<br> <a href="mailto:abreualexp@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-				<br> <a href="https://www.linkedin.com/in/abreu-alex/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-				<br> <a href="https://twitter.com/abreualexp" target="_blank"><i class="fa fa-twitter"></i></a>
-				<br> <a href="https://www.instagram.com/abreualexp/" target="_blank"><i class="fa fa-instagram"></i></a>
-				<br> <a href="https://www.youtube.com/@alex_abreu" target="_blank"><i class="fa fa-youtube-play"></i></a>
-				<br> <a href="https://github.com/abreualexp" target="_blank"><i class="fa fa-github"></i></a>
-			</font></p>
-		</div>
-	</div> -->
-
 	<!-- Introduction -->
 	<div class="intro section" id="about">
 		<div class="container">
@@ -70,17 +47,20 @@
 					<img src="img/ava.jpg" alt="Avatar">
 				</div>
 				<div class="unit-80">
-					<h1>I'm working on<br><span id="typed"></span></h1>
+					<h1>I'm working on
+						<br>
+						<span id="typed"></span>
+					</h1>
 				</div>
 
 				<!-- Navigation -->
 				<nav id="navbar-1" class="navbar item-nav">
 					<ul>
-						<li class="active"><a href="#about">	About Me</a></li>
-						<li><a href="#education">				Education &amp; Research</a></li>
-						<li><a href="#experiences">				Work Experiences</a></li>
-						<li><a href="#publication">				Publications</a></li>
-						<li><a href="#talks">					Talks &amp; Lectures</a></li>
+						<li><a href="#education">		Education &amp; Research</a></li>
+						<li><a href="#experiences">		Work Experiences</a></li>
+						<li><a href="#publication">		Publications</a></li>
+						<li><a href="#talks">			Talks &amp; Lectures</a></li>
+						<li><a target="_blank" href="files/cv-pt.tex">	CV </a></li>
 					</ul>
 				</nav>
 				
@@ -91,15 +71,6 @@
 					Alex has worked on logistics and production optimization including the pickup and delivery problem
 					and the flow shop scheduling problem.
 				</p>
-				
-				<h3>Research Interests:</h3>
-				<ul>
-					<li> Operations Research </li>
-					<li> Mathematical modelling </li>
-					<li> Vehicle routing problems </li>
-					<li> Scheduling problems </li>
-					<li> Robust optimization </li>
-				</ul>
 			</div>
 		</div>
 	</div>
@@ -155,7 +126,7 @@
 		<div class="container">
 			<h1>Publications</h1>
 			<ul class="skill-list list-flat">
-				<li></li>
+				<!-- <li></li> -->
 				<li>Abreu, A. P., & Fuchigami, H. Y. (2022).<br>
 					<a target="_blank" href="https://doi.org/10.1016/j.cie.2022.107976" target="_blank">
 						An efficiency and robustness analysis of warm-start mathematical models for idle and waiting times optimization in the flow shop.
@@ -191,28 +162,43 @@
 	<div class="quote">
 		<div class="container text-centered">
 			<h1>
-				All models are wrong, but some are useful.<br>George Box
+				All models are wrong, but some are useful.
 			</h1>
 		</div>
 	</div>
 
-	<footer>
+	<!-- <footer>
 		<div class="container">
 			<div class="units-row">
 				<div class="unit-50">
-					<p>Alex Paranahyba de Abreu</p>
+					<h1>Alex Paranahyba de Abreu</h1>
 				</div>
 				<div class="unit-50">
 					<ul class="social list-flat right">
 						<li><a href="mailto:abreualexp@gmail.com"><i class="fa fa-envelope"></i></a></li>
-						<li><a target="_blank" href="https://www.linkedin.com/in/abreu-alex/"><i class="fa fa-linkedin-square"></i></a></li>
-						<li><a target="_blank" href="https://twitter.com/abreualexp"><i class="fa fa-twitter"></i></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/abreualexp/"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" href="https://www.youtube.com/@alex_abreu"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a target="_blank" href="https://github.com/abreualexp"><i class="fa fa-github"></i></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/abreu-alex/">	<i class="fa fa-linkedin-square"></i></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/abreualexp/">	<i class="fa fa-instagram"></i></a></li>
+						<li><a target="_blank" href="https://github.com/abreualexp">			<i class="fa fa-github"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/@alex_abreu">		<i class="fa fa-youtube-play"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/abreualexp">			<i class="fa fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>
+		</div>
+	</footer> -->
+
+	
+	<footer>
+		<div class="container text-centered">
+			<h1>Alex Paranahyba de Abreu</h1>
+			<ul class="social list-flat center">
+				<li><a href="mailto:abreualexp@gmail.com"><i class="fa fa-envelope"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/abreu-alex/">	<i class="fa fa-linkedin-square"></i></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/abreualexp/">	<i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" href="https://github.com/abreualexp">			<i class="fa fa-github"></i></a></li>
+				<li><a target="_blank" href="https://www.youtube.com/@alex_abreu">		<i class="fa fa-youtube-play"></i></a></li>
+				<li><a target="_blank" href="https://twitter.com/abreualexp">			<i class="fa fa-twitter"></i></a></li>
+			</ul>
 		</div>
 	</footer>
 	
@@ -225,7 +211,7 @@
 		function newTyped() { } $(function () {
 			$("#typed").typed({
 				// Change to edit type effect
-				strings: ["Vehicle routing"],
+				strings: ["Analytics","Optmisation"],
 				
 				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
 			}), $(".reset").click(function () { $("#typed").typed("reset") })
