@@ -3,6 +3,12 @@
 
 <head>
 	<title>Alex Abreu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTFXM0VFZH"></script>
 	<script>
@@ -13,14 +19,8 @@
 		gtag('config', 'G-MTFXM0VFZH');
 	</script>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/kube.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<!-- <link rel="stylesheet" href="css/custom.min.css" /> -->
 	<link rel="stylesheet" href="css/custom.css" />
 	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -35,9 +35,54 @@
 		}
 	</style>
 	
+	<style>
+		body {margin:0;}
+
+		.navbar {
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			display: inline;
+			text-align: center;
+			width: 100%;
+		}
+
+		.navbar a {
+			font-family: "Playfair Display SC", serif;
+			display: inline-block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover {
+			background: #ffbb18;
+			color: black;
+		}
+
+		.left-a{
+			float: left !important;
+		}
+	</style>
+	
 </head>
 
 <body>
+
+	<!-- Navigation -->
+	<div class="navbar">
+		<a href="#education">		Education</a>
+		<a href="#experiences">		Experiences</a>
+		<a href="#publication">		Publications</a>
+		<a href="#talks">			Talks</a>
+		<a target="_blank" href="files/CV-pt.pdf">	CV</a>
+	</div>
+
+
 	<!-- Introduction -->
 	<div class="intro section" id="about">
 		<div class="container">
@@ -47,22 +92,12 @@
 					<img src="img/ava.jpg" alt="Avatar">
 				</div>
 				<div class="unit-80">
+					<!-- <h1> Hi, I’m Alex Abreu -->
 					<h1>I'm working on
 						<br>
 						<span id="typed"></span>
 					</h1>
 				</div>
-
-				<!-- Navigation -->
-				<nav id="navbar-1" class="navbar item-nav">
-					<ul>
-						<li><a href="#education">		Education &amp; Research</a></li>
-						<li><a href="#experiences">		Work Experiences</a></li>
-						<li><a href="#publication">		Publications</a></li>
-						<li><a href="#talks">			Talks &amp; Lectures</a></li>
-						<li><a target="_blank" href="files//CV-pt.pdf">	CV </a></li>
-					</ul>
-				</nav>
 				
 				<p>
 					Alex Abreu is a master's student at the Department of Production Engineering of the Federal
@@ -192,7 +227,7 @@
 		<div class="container text-centered">
 			<h1>Alex Paranahyba de Abreu</h1>
 			<ul class="social list-flat center">
-				<li><a href="mailto:abreualexp@gmail.com"><i class="fa fa-envelope"></i></a></li>
+				<li><a href="mailto:abreualexp@gmail.com">								<i class="fa fa-envelope"></i></a></li>
 				<li><a target="_blank" href="https://www.linkedin.com/in/abreu-alex/">	<i class="fa fa-linkedin-square"></i></a></li>
 				<li><a target="_blank" href="https://www.instagram.com/abreualexp/">	<i class="fa fa-instagram"></i></a></li>
 				<li><a target="_blank" href="https://github.com/abreualexp">			<i class="fa fa-github"></i></a></li>
