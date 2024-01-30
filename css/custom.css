@@ -152,6 +152,7 @@ a:hover {
     color: #fff; }
 
 footer {
+  /* background-color: #ffbb18; */
   padding: 50px 0px 0px 0px; }
   footer .social li {
     display: inline;
@@ -159,6 +160,4 @@ footer {
     footer .social li a {
       font-size: 1.5em;
       color: #999999; }
-    footer .social li a:hover {
-      color: #ffbb18; }
 
