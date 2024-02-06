@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Alex Abreu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<meta name="description" content="Alex Paranahyba de Abreu">
+	<meta name="author" content="Alex Paranahyba de Abreu">
+	<meta name="keywords" content="Alex Abreu, personal website, optimisation">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTFXM0VFZH"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-MTFXM0VFZH');
+	</script>
+
+	<link rel="stylesheet" href="css/kube.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css">
+	
+	<link rel="shortcut icon" href="img/favicon.png" />
+	
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'ALEX';
+		}
+	</style>
+	
+	<style>
+		body {margin:0;}
+
+		.navbar {
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			display: inline;
+			text-align: center;
+			width: 100%;
+		}
+
+		.navbar a {
+			font-family: "Playfair Display SC", serif;
+			display: inline-block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover {
+			background: #ffbb18;
+			color: black;
+		}
+
+		.left-a{
+			float: left !important;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+    <div class="intro section" id="about">
+		<div class="container">
+			<h3>Hi, I’m Alex Abreu <span class="flag-icon flag-icon-sun"></span></h3>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<!-- <h1> Hi, I’m Alex Abreu -->
+					<h1>I'm working on
+						<br>
+						<span id="typed"></span>
+					</h1>
+				</div>
+				
+				<p>
+					Alex Abreu is a master's student at the Department of Production Engineering of the Federal University of São Carlos, Brazil, under the supervision of Prof. Pedro Munari. He received a bachelor's degree in Production Engineering from the Federal University of Goiás, Brazil. Alex has worked on logistics and production optimization including the pickup and delivery problem and the flow shop scheduling problem.
+					<!-- Sou Engenheiro de Produção formado pela Universidade Federal de Goiás (UFG) e atualmente estou no segundo ano do mestrado em Engenharia de Produção, com ênfase em Pesquisa Operacional, na Universidade Federal de São Carlos (UFSCar).
+					<br><br>
+					Minha trajetória profissional inclui contribuições significativas no Grupo BR Aço, onde desempenhei o papel de Analista de Planejamento e Análise Financeira, e na Cargill, onde atuei como estagiário de Pesquisa e Desenvolvimento. Nessas experiências, destaco a execução de projetos que demandaram análise de dados e solução de problemas, demonstrando minha capacidade de enfrentar desafios complexos.
+					<br><br>
+					Possuo proficiência em linguagens de programação como Julia, Python e R, além de habilidades avançadas em ferramentas como Excel, PowerBI e Bizagi. Essas competências técnicas fundamentam minha capacidade de realizar análises aprofundadas de dados e construir métodos de otimização. -->
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-centered">
+        <h1>Materiais da aula</h1>
+        Slides: <a href="files/aula-insper/">Acesse aqui</a>.
+        <br>
+        Arquivo Excel: <a href="files/aula-insper/exemplos.xlsx">Baixe aqui</a>.
+    </div>
+
+	
+	<footer>
+		<div class="container text-centered">
+			<h1>Alex Paranahyba de Abreu</h1>
+			<ul class="social list-flat center">
+				<li><a href="mailto:abreualexp@gmail.com">								<i class="fa fa-envelope"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/abreu-alex/">	<i class="fa fa-linkedin-square"></i></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/abreualexp/">	<i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" href="https://github.com/abreualexp">			<i class="fa fa-github"></i></a></li>
+				<li><a target="_blank" href="https://www.youtube.com/@alex_abreu">		<i class="fa fa-youtube-play"></i></a></li>
+				<li><a target="_blank" href="https://twitter.com/abreualexp">			<i class="fa fa-twitter"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+	
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/kube.min.js"></script>
+	<script src="js/site.js"></script>
+	<script>
+		function newTyped() { } $(function () {
+			$("#typed").typed({
+				// Change to edit type effect
+				strings: ["Analytics","Optmisation"],
+				
+				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+			}), $(".reset").click(function () { $("#typed").typed("reset") })
+		});
+	</script>
+</body>
+
+</html>
