@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #333333; }
 
 a, p, li {
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Cambria Math";
   color: #4e4e4e;
   font-size: 1em;
   line-height: 1.75em; }
@@ -98,8 +98,8 @@ a:hover {
   padding: 95px 0px 70px 0px;
   overflow-x: hidden; }
   .intro img {
-    width: 81px;
-    height: 81px;
+    width: 100px;
+    height: 100px;
     border-radius: 99px; }
   .intro .wrap {
     margin: 30px 0px; }
@@ -112,6 +112,14 @@ a:hover {
     color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
+  .intro .social li { 
+      display: inline;
+      font-size: 1.5em;
+      margin-left: 20px; }
+    .intro .social li a {
+      color: #4e4e4e;}
+      .intro .social li a:hover {
+        color: #ffbb18 !important; }
 
 .work .work-list {
   margin-left: 0px; }
@@ -149,6 +157,9 @@ a:hover {
     margin: 100px 0px;
     padding: 40px 20px;
     border: 5px solid #fff;
+    color: #fff; }
+  .quote p {
+    font-family: "Playfair Display SC", serif;
     color: #fff; }
 
 footer {
