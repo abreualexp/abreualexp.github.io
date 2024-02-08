@@ -112,13 +112,13 @@ a:hover {
     color: #f4f4f4; }
   .intro h1 span {
     font-size: 47px; }
-  .intro .social li { 
+  .social li { 
       display: inline;
       font-size: 1.5em;
       margin-left: 20px; }
-    .intro .social li a {
+    .social li a {
       color: #4e4e4e;}
-      .intro .social li a:hover {
+      .social li a:hover {
         color: #ffbb18 !important; }
 
 .work .work-list {
