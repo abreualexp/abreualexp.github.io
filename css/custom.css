@@ -151,16 +151,20 @@ a:hover {
 .quote {
   /* background: url(../img/bg.jpg); */
   background-color: #ffbb18;
-  padding: 20px 0px;
-  margin-top: 120px; }
+  padding: 30px 0px;
+  margin-top: 60px; 
+  margin-bottom: 0px; }
   .quote h1 {
-    margin: 100px 0px;
-    padding: 40px 20px;
+    margin: 0px 0px;
+    padding: 20px 20px;
     border: 5px solid #fff;
     color: #fff; }
-  .quote p {
-    font-family: "Playfair Display SC", serif;
+  .quote h2 {
     color: #fff; }
+  .quote li a {
+    color: #fff; }
+  .quote li a:hover {
+    color: #333333 !important; }
 
 footer {
   background-color: #302E2A;
@@ -171,7 +175,7 @@ footer {
     display: inline;
     margin-left: 20px; }
   footer .social li a {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #E6E6DD; }
   footer .social li a:hover {
     color: #ffbb18 !important; }
