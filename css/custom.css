@@ -157,6 +157,9 @@ a:hover {
   min-width: 200px;
   min-height: 300px;   
 }
+.roundbox h4 {
+  font-family: "Arial";
+}
 
 details {
   /* user-select: none; */
