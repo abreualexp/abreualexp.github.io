@@ -3,6 +3,10 @@
  *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
  */
 
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900 */
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
   color: #333333; }
