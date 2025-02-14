@@ -172,12 +172,13 @@ details {
 }
 
 summary {
-  display: block;
+  /* display: block; */
   cursor: pointer;
-  background: #333333;
+  /* background: #333333; */
+  /* color: #DDD; */
+  color: #333333;
   border-radius: 7px;
   padding: 2mm; 
-  color: #DDD;
   /* padding-top: 50px; */
   /* margin-top: 50px; */
 }
@@ -187,7 +188,7 @@ details dl {
   text-align: left;
   list-style: none;
   /* margin-left: 0; */
-  font-family: "Arial"; 
+  /* font-family: "Arial";  */
 }
 
 .quote {
