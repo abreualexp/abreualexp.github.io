@@ -153,11 +153,11 @@ a:hover {
     color: #8c8c8c; }
 
 .roundbox {
-  position: relative;
-  text-align: center;
-  border-radius: 15px;
-  border: 5px solid #ffbb18;
-  padding: 5px;
+  /* position: relative; */
+  /* text-align: left; */
+  /* border-radius: 15px; */
+  /* border: 5px solid #ffbb18; */
+  /* padding: 5px; */
   /* min-width: 200px;
   min-height: 300px;    */
 }
@@ -172,7 +172,7 @@ details {
 }
 
 summary {
-  display: block;
+  /* display: block; */
   cursor: pointer;
   /* background: #333333; */
   /* color: #DDD; */
