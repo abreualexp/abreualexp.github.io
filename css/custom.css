@@ -17,6 +17,10 @@ a, p, li {
   font-size: 1.2em;
   line-height: 1.75em; }
 
+.small-text {
+  font-size: 1em; /* 80% of the surrounding text size */
+}
+
 a:hover {
   text-decoration: none !important;
   color: #333333 !important;
